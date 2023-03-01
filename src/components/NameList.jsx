@@ -21,7 +21,7 @@ const NameList = () => {
 //     <Person key={persons.id} persons={persons} />
 //   ));
 
-const nameList = names.map((names,index) => <h2 key={index}>{names},{index}</h2>)
+const nameList = names.map((names,index) => <h2 key={index }>{names},{index}</h2>)
   return <div>
     {/* {personList} */}
     {nameList}

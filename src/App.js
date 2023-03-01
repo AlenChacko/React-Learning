@@ -5,8 +5,13 @@ import Greet from "./components/Greet";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
+import Form from "./components/Form";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
+import { Component } from "react";
 
-function App() {
+
+function App () {
   return (
     <div className="App">
       {/* <Counter /> */}
@@ -14,9 +19,15 @@ function App() {
       {/* <FunctionClick/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting /> */}
-      <NameList/>
+      {/* <NameList/> */}
+      {/* <Form /> */}
+      {/* <FragmentDemo /> */}
+      {/* <Table/> */}
+
     </div>
   );
 }
+
+
 
 export default App;
